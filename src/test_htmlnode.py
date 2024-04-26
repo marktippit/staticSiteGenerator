@@ -81,7 +81,6 @@ class TestHTMLNode(unittest.TestCase):
         lnode2 = LeafNode(None, "Hello2, world!")
         child_list = [lnode1, lnode2]
         node = ParentNode("p", child_list)
-        print(node)
 
 if __name__ == "__main__":
     unittest.main()

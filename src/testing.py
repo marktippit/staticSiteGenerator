@@ -1,10 +1,1 @@
-text = "This is text with an [image](https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/zjjcJKZ.png) and another [second image](https://storage.googleapis.com/qvault-webapp-dynamic-assets/course_assets/3elNhQu.png)"
-for words in text.split('['):
-    if ")" in words:
-        for word in words.split(')'):
-            if "]" in word:
-                print(f'[{word})')
-            else:
-                print(word)
-    else:
-        print(words)
+text = "# This is a heading\n\nThis is a paragraph of text. It has some **bold** and *italic* words inside of it.\n\n* This is a list item\n* This is another list item"
